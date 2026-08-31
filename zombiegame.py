@@ -36,10 +36,10 @@ for zi in zombies:
 else:
     print("YES")
 """
-"""n = int(input("Enter the number of zombies: "))
-B = int(input("Enter Bob's energy: "))
+"""n = int(input())
+B = int(input())
 
-zombies = list(map(int, input("Enter the energy of each zombie: ").split()))
+zombies = list(map(int, input().split()))
 
 for zi in zombies:
     if B < zi:
